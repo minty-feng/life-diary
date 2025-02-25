@@ -8,6 +8,9 @@ tags:
   - Vercel
 ---
 
+Hexo 静态博客框架和 Vercel 部署服务教程
+<!-- more -->
+
 ![Hexo + Vercel 博客封面](https://cdn.example.com/hexo-vercel-banner.png)
 欢迎来到 **Life Diary** ！本文将手把手教你如何从零开始，用 Hexo 静态博客框架和 Vercel 部署服务，搭建属于你自己的「生活日记」博客。无需服务器，全程免费，且支持自定义域名！
 
@@ -20,7 +23,7 @@ tags:
 - 🔗 专属域名（如 `diary.yourname.com`）
 - 📝 Markdown 写作 + 实时发布
 
-[点击查看演示站](https://life-diary.vercel.app)
+[点击查看演示站](https://life-diary-minty.vercel.app)
 
 ---
 

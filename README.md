@@ -7,7 +7,7 @@
 
 **Life Diary** 是一个基于 [Hexo](https://hexo.io/) 静态博客框架和 [Vercel](https://vercel.com/) 部署的个人博客项目，专注于记录生活碎片、技术思考与灵感瞬间。无需服务器，免费托管，支持 Markdown 写作与自动发布。
 
-**在线访问**: [life-diary.vercel.app](https://life-diary.vercel.app) 或 [你的自定义域名](https://diary.yourname.com)
+**在线访问**: [https://life-diary-minty.vercel.app](https://https://life-diary-minty.vercel.app/)
 
 ![博客预览截图](https://cdn.example.com/life-diary-preview.png)
 
