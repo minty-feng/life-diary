@@ -348,10 +348,10 @@ iconfont: //at.alicdn.com/t/c/font_1736178_k526ubmyhba.css
 # 导航菜单
 navbar:
   menu:
-    首页: /
-    归档: /archives/
-    影集: /gallery/
-    关于: /about/
+    - { name: 首页, link: / }
+    - { name: 归档, link: /archives/ }
+    - { name: 关于, link: /about/ }
+  logo: /img/logo.png  # 导航栏 Logo 路径
 
 
 # 社交链接
