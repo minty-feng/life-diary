@@ -1,6 +1,4 @@
-以下是专为 **`life-diary`** 项目设计的 `README.md` 模板，既适合放在项目根目录帮助访客快速上手，也可稍作修改作为博客的引导文章。
 
-````markdown
 # 🎨 Life Diary · 我的数字生活花园
 
 ![Vercel Deploy Status](https://vercel-badge.xxoo.workers.dev/你的GitHub用户名/life-diary) 
@@ -37,11 +35,19 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/你的GitHub用户名/life-diary.git
+git clone https://github.com/minty-feng/life-diary.git
 cd life-diary
+
+# 安装 Hexo 命令行工具
+npm install -g hexo-cli
+
+# 创建项目文件夹
+hexo init docs
+cd docs
 
 # 安装依赖
 npm install
+
 
 # 启动本地服务器
 hexo server
@@ -58,7 +64,7 @@ hexo server
 title: Life Diary
 subtitle: 让记忆有迹可循
 description: "记录每一刻的感动与成长"
-author: 你的名字
+author: feng
 language: zh-CN
 ```
 
@@ -75,8 +81,8 @@ navbar:
 
 # 社交链接
 social:
-  GitHub: https://github.com/你的用户名
-  Email: mailto:yourname@example.com
+  GitHub: https://github.com/minty-feng
+  Email: mailto:riseat7am@gamil.com
 ```
 
 ### 3. 添加文章
@@ -167,16 +173,3 @@ A：在 [Giscus](https://giscus.app/) 生成配置，更新 `themes/fluid/_confi
 
 **Q：自定义域名显示 SSL 错误？**  
 A：在 Vercel 的 Domains 设置中重新验证 SSL 证书。
-````
-
----
-
-### 使用说明
-1. 将上述内容保存为项目根目录的 `README.md`
-2. 替换以下占位符：
-   - `你的GitHub用户名`
-   - `你的自定义域名`
-   - `cdn.example.com`（可删除或替换为实际图片链接）
-3. 添加实际截图路径（如 `/source/images/blog-preview.png`）
-
-此 README 既可作为项目文档，也可通过 `hexo new "关于本博客"` 转换为引导文章，帮助访客了解博客的技术背景。
