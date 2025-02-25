@@ -1,6 +1,6 @@
 ---
 title: 从零开始：用 Hexo + Vercel 搭建「Life Diary」个人博客
-date: 2024-01-20
+date: 2025-02-25
 tags: 
   - 技术教程
   - 博客搭建
@@ -8,7 +8,7 @@ tags:
   - Vercel
 ---
 
-![Hexo + Vercel 博客封面](https://cdn.example.com/hexo-vercel-banner.png)  
+![Hexo + Vercel 博客封面](https://cdn.example.com/hexo-vercel-banner.png)
 欢迎来到 **Life Diary** ！本文将手把手教你如何从零开始，用 Hexo 静态博客框架和 Vercel 部署服务，搭建属于你自己的「生活日记」博客。无需服务器，全程免费，且支持自定义域名！
 
 ---
@@ -112,7 +112,7 @@ git init
 git add .
 git commit -m "Init Life Diary blog"
 git branch -M main
-git remote add origin https://github.com/你的用户名/life-diary.git
+git remote add origin https://github.com/${user}/life-diary.git
 git push -u origin main
 ```
 
